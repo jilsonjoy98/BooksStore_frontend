@@ -1,0 +1,75 @@
+  <!-- Header-->
+
+  <div id="carouselExampleCaptions" class="carousel slide py-5">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div style="height: 350px;" class="carousel-item active">
+          <img style="float: right; border-radius: 20px; width: 500px;"  src="https://i.pinimg.com/564x/72/22/c0/7222c08910a44e7e18026d88939c8fa2.jpg" class="d-block pt-5  " alt="...">
+      <div  class=" carousel-caption d-none d-md-block">
+          <div style="float: left;" class=" align-items-left">
+            <p  >The Hobbit & The Lord of the Rings </p>
+            <button routerLink="view-product/1" class="btn btn-warning">View now</button>
+          </div>
+        </div>
+      </div>
+      <div style="height: 350px;" class="carousel-item">
+        <img style="float: right; border-radius: 20px; width: 500px;"  src="https://asset.kompas.com/crops/Ll-9_ql6J5WdYzFhy4CJD5neGso=/0x0:860x430/750x500/data/photo/2020/12/28/5fe9e1be901a4.jpg" class="d-block pt-5  " alt="...">
+        <div  class="carousel-caption d-none d-md-block">
+          <div style="float: left;" class="align-items-left">
+            <p  >The Hobbit & The Lord of the Rings </p>
+            <button routerLink="view-product/2" class="btn btn-warning">View now</button>
+          </div>
+        </div>
+      </div>
+      <div style="height: 350px;" class="carousel-item">
+        <img style="float: right; border-radius: 20px; width: 500px;"  src="https://donanimgunlugu.com/wp-content/upload/2016/12/attack-on-titan-cover.png" class="d-block pt-5  " alt="...">
+        <div  class="carousel-caption d-none d-md-block">
+          <div style="float: left;" class="align-items-left">
+            <p  >The Hobbit & The Lord of the Rings </p>
+            <button routerLink="view-product/3" class="btn btn-warning">View now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-2">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
+            <div class="col mb-5 animate__animated animate__backInRight" *ngFor="let book of books | filter : searchItem : 'title';">
+                <div style="background-color: bisque; border-radius: 20px;" class="card h-100 p-3">
+                    <!-- Product image-->
+                    <img style="border-radius: 20px;" height="200px"  class="card-img-top" [src]="book.image" [alt]="book.title" />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{book.title.slice(0,20)}}</h5>
+                            <!-- Product price-->
+                           <b style="font-size: 25px;">&#8377; {{book.price}}</b>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-warning mt-auto" routerLink="view-product/{{book.id}}"><i class="fa-solid fa-eye"></i> &nbsp; View Now</a></div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+</section>

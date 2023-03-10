@@ -1,0 +1,43 @@
+<!-- Empty wishlist -->
+
+    <div *ngIf="wishlistStatusMsg" style="background-color: white; margin-top: 100px;" class="container-fluid mt-5 ">
+        <div class="row ">
+            <div class="col mt-5 text-center">
+                <!-- empty wishlist image -->
+                <h3 class="mt-2 text-danger">Your Wish List is Empty...</h3>
+                <img width="400px" src="https://i.pinimg.com/originals/b9/73/ff/b973ff30ca76ffe559fa1eda1f933e71.gif" alt="Empty WishList">
+                <br>
+                <a routerLink="" class="btn btn-danger mb-5">Shop More</a>
+            </div>
+        </div>
+    </div>
+
+<!-- Section-->
+<section *ngIf="!wishlistStatusMsg" class="py-5" style="margin-top: 100px;">
+    <div class="container px-4 px-lg-5 mt-2">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
+            <div class="col mb-5" *ngFor="let book of wishlist">
+                <div  style="background-color: bisque; border-radius: 20px;" class="card h-100 p-3">
+                    <!-- Product image-->
+                    <img style="border-radius: 20px;" height="200px" class="card-img-top" [src]="book.image" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{book.title.slice(0,20)}}...</h5>
+                            <!-- Product price-->
+                            <b style="font-size: 25px;">&#8377; {{book.price}}</b>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div >
+                            <button (click)="removeItem(book.id)" style="float: left; font-size: 25px;" class="btn text-danger ms-3 "><i class="fa-solid fa-trash fa-beat "></i> </button>
+                            <button (click)="addToCart(book)" style="float:right; font-size: 25px;" class="btn text-primary me-3 " ><i class="fa-solid fa-cart-plus fa-beat"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+</section>

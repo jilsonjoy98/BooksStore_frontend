@@ -1,0 +1,98 @@
+[
+  {
+    "id":1,
+    "title":"The Hobbit & The Lord of the Rings Boxed Set: The Classic Bestselling Fantasy Novel",
+    "image":"https://m.media-amazon.com/images/I/41f31KBE1IL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "Description":"When they were first published, The Hobbit and The Lord of the Rings became instant classics. Treasured by readers young and old, these works of sweeping fantasy, steeped in unrivalled magic and otherworldliness have sold more than 150 million copies around the world.This new boxed set offers readers a new opportunity to discover Tolkien’s remarkable world of Middle-earth and to follow the complete story of Bilbo Baggins and the Hobbits’ part in the epic quest for the Ring – beginning with Bilbo’s fateful visit from Gandalf and culminating in the dramatic climax between Frodo and Gollum atop Mount Doom and Bilbo’s departure to the Grey Havens.",
+    "price":1362,
+    "rating":4.9
+  },
+  {
+    "id":2,
+    "title":"Game of Thrones: In Memoriam",
+    "image":"https://m.media-amazon.com/images/I/61nseaHM7zL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "Description":"Game of Thrones: In Memoriam is a tribute to some of the most memorable characters that have died during the course of the first four seasons. The book includes quotes, brief character profiles, and is fully illustrated with series photography throughout.",
+    "price":899,
+    "rating":4.5
+  },
+  {
+    "id":3,
+    "title":"Attack on Titan Vol. 1",
+    "image":"https://m.media-amazon.com/images/I/51QWSFImgvL.jpg",
+    "Description":" this post-apocalytpic sci-fi story, humanity has been devastated by the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming mankind. Seemingly unintelligent, they have roamed the world for years, killing everyone they see. For the past century, what's left of man has hidden in a giant, three-walled city. People believe their 100-meter-high walls will protect them from the Titans, but the sudden appearance of an immense Titan is about to change everything. Winner of the 2011 Kodansha Manga Award (Shonen) and nominated for the prestigious Osamu Tezuka Cultural Prize for 2012.",
+    "price":280,
+    "rating": 4.6
+  },
+  {
+    "id":4,
+    "title":"The Psychology of Money",
+    "image":"https://m.media-amazon.com/images/I/41r6F2LRf8L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "Description":"Timeless lessons on wealth, greed, and happiness doing well with money isn?t necessarily about what you know. It?s about how you behave. And behavior is hard to teach, even to really smart people. How to manage money, invest it, and make business decisions are typically considered to involve a lot of mathematical calculations, where data and formulae tell us exactly what to do. But in the real world, people don?t make financial decisions on a spreadsheet. They make them at the dinner table, or in a meeting room, where personal history, your unique view of the world, ego, pride, marketing, and odd incentives are scrambled together. In the psychology of money, the author shares 19 short stories exploring the strange ways people think about money and teaches you how to make better sense of one of life?s most important matters.",
+    "price":225,
+    "rating": 4.2
+  },
+  {
+    "id":5,
+    "title":"Marvel Adventures Iron Man (2007-2008)",
+    "image":"https://m.media-amazon.com/images/I/51SzbNvAAHL.jpg",
+    "Description":"Who is IRON MAN, the world-renowned symbol of mega-conglomerate Stark International? And what terrible secret from his past forces billionaire inventor TONY STARK to become the Golden Guardian? Find out here!",
+    "price":225,
+    "rating":4.2
+  },
+  {
+    "id":6,
+    "title":"Batman: Detective Comics #1000: The Deluxe Edition",
+    "image":"https://m.media-amazon.com/images/I/51hMAFCycwL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "Description":"This incredible landmark issue is stacked with an unbelievable lineup of talent that will take you on a journey through Batman's past, present and future...plus a sensational epilogue that features the first-ever DC Universe appearance of the deadly Arkham Knight! But who is under the mask? And why do they want Batman dead? The incredible future of Batman adventures begins here! This unforgettable collector's edition features stories and art by:  Neal Adams, Brian Michael Bendis, Greg Capullo, Becky Cloonan, Tony S. Daniel, Paul Dini, Warren Ellis, Steve Epting, Geoff Johns, Joëlle Jones, Kelley Jones, Tom King, Jim Lee, Doug Mahnke, Alex Maleev, Alvaro Martinez-Bueno, Dustin Nguyen, Denny O'neil, Christopher Priest, Kevin Smith, Scott Snyder, Peter J. Tomasi, James Tynion IV...and more! Detective Comics #1000: The Deluxe Edition collects the much-lauded landmark issue Detective Comics #1000, as well as an uncollected Batman story by Robert Venditti and an original story from the legendary Batman writer Alan Grant. This edition also features a bonus gallery loaded with variant covers.",
+    "price":970,
+    "rating":4.5
+  },  
+  {
+    "id":7,
+    "title":"Chainsaw Man, Vol. 1: Dog And Chainsaw",
+    "image":"https://m.media-amazon.com/images/I/51sdy2UtO7L._SY346_.jpg",
+    "Description":"Denji’s a poor young man who’ll do anything for money, even hunting down devils with his pet devil Pochita. He’s a simple man with simple dreams, drowning under a mountain of debt. But his sad life gets turned upside down one day when he’s betrayed by someone he trusts. Now with the power of a devil inside him, Denji’s become a whole new man—Chainsaw Man!",
+    "price":379,
+    "rating":4
+  },
+  {
+    "id":8,
+    "title":"Beginning MERN Stack: Build and Deploy a Full Stack MongoDB, Express, React, Node.js App",
+    "image":"https://m.media-amazon.com/images/I/418nSN91rmS._SY346_.jpg",
+    "Description":"In this book, we take you on a fun, hands-on and pragmatic journey to learning MERN stack development. You'll start building your first MERN stack app within minutes. Every chapter is written in a bite-sized manner and straight to the point as I don’t want to waste your time (and most certainly mine) on the content you don't need. In the end, you will have the skills to create a Movies review app and deploy it to the Internet.",
+    "price":449,
+    "rating":3.9
+  },
+  {
+    "id":9,
+    "title":"Chip Trippers (Mern Bay Adventures Book 1)",
+    "image":"https://m.media-amazon.com/images/I/51YzE++roRL._SY346_.jpg",
+    "Description":"The year is 2177. Willik and his half human brother Zeffery live on the deep space freighter Mern Bay, captained by their father. When Will’s best friend Kai is found dead, they immerse themselves in the alter reality gaming world that claimed his life. From splat guns to gravity dumps, molecular knives to organic weapons, Will and Zeff take on one of the biggest corporations in the galaxy to keep more kids from dying.",
+    "price":449,
+    "rating":3.9
+  },
+  {
+    "id":10,
+    "title":"101 Animals Stories",
+    "image":"https://m.media-amazon.com/images/I/51J42t3rRYL._SX260_.jpg",
+    "Description":"101 Animals Stories- the book featuring zoological garden of animals- crocodiles, bears, fish, wolves, lions, tigers, monkeys and more—to delight children with their exciting tricks and adventures. Each story woven a simple language and supported with stately illustrations imparts valuable life-lessons.",
+    "price":147,
+    "rating":2.9
+  },
+  {
+    "id":11,
+    "title":"The Power of Your Subconscious Mind",
+    "image":"https://m.media-amazon.com/images/I/41+CqNWoutS._SX258_BO1,204,203,200_.jpg",
+    "Description":"This remarkable book by Dr. Joseph Murphy, one of the pioneering voices of affirmative thinking, will unlock for you the truly staggering powers of your subconscious mind. Combining time-honored spiritual wisdom with cutting edge scientific research, Dr. Murphy explains how the subconscious mind influences every single thing that you do and how, by understanding it and learning to control its incredible force, you can improve the quality of your daily life.Everything, from the promotion that you wanted and the raise you think you deserve, to overcoming phobias and bad habits and strengthening interpersonal relationships, the Power of Your Subconscious Mind will open a world of happiness, success, prosperity and peace for you. It will change your life and your world by changing your beliefs.",
+    "price":105,
+    "rating":4.9
+  },
+  {
+    "id":12,
+    "title":"The Power of Your Subconscious Mind (PREMIUM PAPERBACK, PENGUIN INDIA) ",
+    "image":"https://m.media-amazon.com/images/I/41WX6XCA5QL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "Description":"Since its publication in 1963, The Power of Your Subconscious Mind has inspired millions of readers to unlock the unseen forces and invisible power within them. Dr Murphy's mind-focusing techniques are based on a simple principle: If you believe in something without reservation and picture it in your mind, you can remove the subconscious obstacles that prevent you from achieving the results you want, and your belief can become a reality.As practical as it is inspiring, Dr Murphy's work uses real-life examples to demonstrate how anyone can unleash their extraordinary mental powers to build self-confidence, create harmonious relationships, gain professional success, amass wealth, conquer fears and phobias, banish bad habits, affect physical healing, and promote overall well-being and happiness.",
+    "price":84,
+    "rating":4.5
+  }
+]

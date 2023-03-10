@@ -1,0 +1,31 @@
+ <!-- Navigation-->
+ <nav style="background-color:  rgb(25, 224, 158); box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.258), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " class="navbar fixed-top navbar-expand-lg navbar-light ">
+    <div class="container px-4 px-lg-5 ">
+        <div class="col-lg-5">
+            <a style="font-size: 30px;" class="navbar-brand" routerLink="">
+                <i class="fa-solid fa-book text-danger"></i>&nbsp;
+                JJ BOOKS
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                <li class="nav-item">
+                    <form class="d-flex me-5">
+                        <input (keyup)="search($event)" style="border-radius: 20px; text-align: center;" placeholder= "Search for products " type="text" class="form-control">
+                        
+                    </form>
+                </li>&nbsp;
+                <li class="nav-item "><a class="nav-link btn btn-outline-white" routerLink="products/wishlist">&nbsp;&nbsp;<i class="fa-solid fa-heart text-danger"></i>&nbsp; Wishlist</a></li>
+            </ul>
+            <form class="d-flex">
+                <a routerLink="products/cart"  class="btn btn-outline-dark" type="submit">
+                    <i class="bi-cart-fill me-1"></i>
+                    <i style="font-size: 10px;" class="fa-solid fa-cart-shopping text-primary "></i>
+                    Cart
+                    <span class="badge bg-danger text-white ms-1 rounded-pill">{{cartItemCount}}</span>
+                </a>
+            </form>
+        </div>
+    </div>
+</nav>
